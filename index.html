@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="CSS/style_boot.css">
+    <title>Pálenica</title>
+     <link  rel="icon" href="Pictures\Ikons\logo2.png">
+  </head>
+  <!-- Stránka najlepšie reaguje na firefox// nacitanie obrazkov, scrolling a slide funkcion -->
+  <!-- Kreativne body 
+    
+    1- funkcia scroll : 
+         a - stiahnutie uvodneho letaku, tak aby nebol uz viditelny, len ak zadame domov
+         b - navigacia zostava top on the page
+    2- pridanie google maps
+    3 - posunutie kurzoru na šipky v úvodnom letáku, spusti funkciu slide, ktorá zroluje letak a nasledne nebude viditelny...
+  -->
+  <body onscroll="navSlide()">
+    <div class="container-fluid mainDiv" >
+    <!-- uvodny letak -->
+    <div class="boxDiv" id="out"> 
+      <div class="container-fluid text" >
+        <div class="row">
+          <div class="col-sm-none col-md-4 col-lg-4">
+          </div>
+          <div class=" col-sm-12 col-md-4 col-lg-4 " style="text-align: center;">
+            <img class="img-fluid  " style="object-fit: cover;" src="Pictures\Ikons\logo2.png" alt="hmm_so_bad">
+          </div>
+          <div class="col-sm-none col-md-4 col-lg-4">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4"> </div>
+          <div class="col-md-4 col-lg-4 nadpisLink">
+            <h1>Kvalita je našou prioritou...</h1>
+            <p>nibvdfjbvfd</p>
+            <a href="#up"  ><img class="img-fluid " onmouseover="disableU2()" src="Pictures\Ikons\arrow-212-128.png" alt="niecp" style="max-width: 60px;"></a>
+          </div>
+          <div class="col-md-4 col-lg-4"> </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navigacia -->
+    <!-- menu,dropdown,collapse,navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark nav_Gal"  id="up" >
+    <div class="container" >
+      <a class="navbar-brand" href="index.html"><img style="max-width: 80px;" id="logo" src="logo.png" alt="Palenica_Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-center" id="collapsibleNavbar">
+
+        <!-- Pokrocily zoznam -->
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+
+            <!-- Link 1 -->
+
+            <a class="nav-link"  href="index.html">Domov</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown">Rady pre vás</a>
+            <ul class="dropdown-menu Drop">
+
+              <!-- Link 2 -->
+
+              <li><a class="dropdown-item linkDrop" href="Ovocie.html">Ovocie</a></li>
+              <li><a class="dropdown-item linkDrop" href="MakeIt.html">Ako pripraviť kvas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Kontakt.html">Kontakt</a>
+          </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid" id="medzera" style="padding-right: 0;">
+    <div class="row">
+      <div class="col-12" style="padding: 0;">
+            <!-- Carousel -->
+        <div id="carouselExampleIndicators"  class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner"  style="width: 100%; ">
+            <div class="carousel-item active prvyItem"></div>
+            <div class="carousel-item tretiItem"></div>
+            <div class="carousel-item druhyItem"></div>
+          </div>
+          <a class="carousel-control-prev" data-bs-target="#carouselExampleControls" type="button" data-slide="prev" onmouseover="$('#carouselExampleIndicators').carousel('prev')">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" data-bs-target="#carouselExampleControls" type="button" data-slide="next" onmouseover="$('#carouselExampleIndicators').carousel('next')">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="arrow" style="top: -18px;"></div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6" style="padding-top: 40px;">
+
+          <!-- Nadpis h2 -->
+        
+          <h2 class="fontFam" id="zmen" style="color: yellowgreen; text-align: center;"> Pestovateľská pálenica <br> Čeľadince - 1995 <br> </h2>   
+          <p class="fontFam" style="color: #777; text-align: center;">
+            Pálenie vlastného kvasu je tradícia, ktorá sa opäť dostáva do povedomia ľudí. <br> 
+            V minulosti pálenice používali len medené kotle, ktoré zaručovali zachovanie chute, <br> 
+            vôňe a celkového buketu vyrobeného destilátu z ovocia.<br>
+            Naša pestovateľská pálenica ponúka svojim zákazníkom dlhoročné skúsenosti v oblasti pálenia a to od roku <strong style="color: yellowgreen;">1995</strong> . <br>
+            I v súčasnosti je medená technológia považovaná za najlepšiu, <br> 
+            práve z tohto dôvodu naša pálenica vsadila na osvedčenú medenú technológiu, <br> 
+            ktorú ponúka svojim zákazníkom. Proces pálenia obsluhuje odborne vyškolený pracovník. <br> 
+            Dodržiavaie hygienických zásad je samozrejmosťou a prioritou v našej pálinici. <br>
+             Po každej destilácií je kotol, ako aj rektifikačná kolona umývaná tlakom vody. 
+            </p>
+        </div>
+        
+        <div class="col-sm-12 col-md-6 col-lg-6" style="padding: 20px;">
+          <div class="row">
+         
+            <div class="col-sm-12 col-md-4 col-lg-4 fotoFoto"></div>
+            <div class="col-sm-none col-md-2 col-sm-2"></div>
+            <div class="col-sm-12 col-md-4 col-lg-4 kotolFoto"></div>
+            <div class="col-sm-none col-md-2 col-lg-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Nase sluzby -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4"></div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+
+          <!-- Nadpis h3 -->
+
+          <h3 class="fontFam fontYellow" style="text-align: center; "> Naše služby</h3>
+          <p class="fontFam" style="color: #777; text-align: center; font-size: larger;">
+            Pálenie,poradenstvo, ovocie z veľkoskladov, <br> 
+            drvenie ovocia pomocou drtičky, zapožičanie sudov,<br> 
+            občerstvenie, distribúcia kvasu v čase pandémie, <br>
+            zvoz kvasov a dovoz hotových produktov.
+             </p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4"></div>
+      </div>
+      <!-- fotky ku sluzbam -->
+      <div class="row " >
+        <div class=" col-sm-12 col-md-3 col-lg-3"></div>
+        <div class=" col-sm-12 col-md-2 col-lg-2 fotoDrticka"></div>
+        <div class=" col-sm-12 col-md-2 col-lg-2 fotoMali"></div>
+        <div class=" col-sm-12 col-md-2 col-lg-2 fotoKotle"></div>
+        <div class=" col-sm-12 col-md-3 col-lg-3"></div>
+      </div>
+    </div>
+        
+    
+   <!-- Koniec -->
+
+<!-- In line zapis CSS -->
+
+   <div class="container-fluid" style="padding: 0 0; background-color: white; width: 100%;height: 100px;" >
+   </div>
+   <footer class="row" >
+     
+     <div class="bg-dark col-sm-12 col-md-3 col-lg-3 text-white  foterko "  >
+        <p style="text-align: center;">
+         <a href="#up"><img style="max-width: 100px;" src="logo.png" alt="Palenica_Logo"></a>
+        </p>
+        
+      </div>
+     <div class="bg-dark col-sm-12 col-md-2 col-lg-2  text-white  foterko ">
+     <p style="margin:0;text-align: center;">  <br> <strong>Riaditelia výroby</strong> <br> Ing.Peter Krošlák <br> Miloslav Krošlák <br> </p>
+     </div>
+     <div class="bg-dark col-sm-12 col-md-2 col-lg-2  text-white  foterko ">
+       <div class="arrowDark"></div>
+        <p style="margin:0; text-align: center;"> <strong>Pestovateľská pálenica </strong> <br> tel: 0903404733 <br> kroslak.peter1@gmail.com  </p>
+     </div>
+     <div class="bg-dark col-sm-12 col-md-2 col-lg-2  text-white foterko ">
+         <p style="margin:0;text-align: center; "> <br> <strong>Pracovná doba:</strong> <br> pondelok-piatok <br> 8:00 - 19:00 </p>
+      </div>
+      <div class="bg-dark col-sm-12 col-md-3 col-lg-3 text-white  foterko ">
+ 
+      </div>
+   </footer>
+  </div>
+    </div>
+  
+    <script src="JS_Jquery/jquery-3.6.0.js"></script>
+    <script src="bootstrap/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js" ></script>
+    <script>
+      
+     
+      function disableU2() {
+        $('#out').slideUp(800);
+      };
+      function navSlide() {
+        $('#out').slideUp(800).after(navScrolli1());
+      
+    };
+    function navScrolli1() {
+          if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+         document.getElementById('up').style.position = "fixed";
+          document.getElementById('up').style.zIndex = "100";
+          document.getElementById('logo').style.maxWidth = "50px";
+          document.getElementById('up').style.width = "100%";
+          document.getElementById('up').style.top = "0px";
+        
+        } else {
+          document.getElementById('up').style.top = "0px"
+          document.getElementById('logo').style.maxWidth = "80px";
+          document.getElementById('up').style.position = "relative";
+         
+        };
+      };
+      
+
+      
+    </script>
+   
+  </body>
+</html>

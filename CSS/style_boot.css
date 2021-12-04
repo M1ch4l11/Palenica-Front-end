@@ -1,0 +1,180 @@
+/* Main div */
+.mainDiv {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row {
+    margin-right: 0px;
+}
+.fontFam {
+    font-family: 'FontAwesome';
+}
+.fontYellow {
+    color: yellowgreen;
+    font-size: xxx-large;
+}
+
+
+/* Navigacia + footer + mainPage*/
+
+.text p {
+    text-align: center;
+    visibility: collapse;
+}
+.nadpisLink {
+    text-align: center;
+}
+
+/* position:          fixed;z-index: 100;transition: top 1s;width: 100%;onscroll="navSlide()" onmouseover="disableU2()"*/
+
+
+.boxDiv {
+    background-color: #13292A;
+    height: 100vh;
+    color: white;
+}
+.boxDiv h1 {
+    font-family:  'Helvetica Neue', sans-serif;
+    text-align: center;
+   padding-top: 5vh;
+}
+.imgCon {
+    
+   max-width: 130vh;
+} 
+.nav_Gal {
+    background-color: #13292A;
+}
+
+/* ---------------------------- */
+ul a {
+    font-size: 20px;
+}
+
+.foterko {
+    background-color: #13292A;
+    margin: 0;
+    border: 0;
+    padding: 35px 0;
+}
+/* Carousel */
+.carouselExampleIndicators{
+    height: 70vh;
+}
+.prvyItem {
+    height: 70vh;
+    background-image: url("DSC_0005.JPG");
+    background-position: top 32% center;
+    background-size: cover;
+}
+.druhyItem {
+    height: 70vh;
+    background-image: url("horse11.jpg");
+    background-position: top 42% center;
+    background-size: cover;
+}
+.tretiItem {
+    height: 70vh;
+    background-image: url("DSC_0017.JPG");
+    background-position: top 50% center;
+    background-size: cover;
+
+}
+/* Naše slžby */
+.fotoDrticka {
+    
+    height: 40vh;
+    margin: 15px;
+    background-image: url("01.jpg");
+    background-size: cover;
+    border-radius: 40px;
+    
+}
+.fotoMali {
+    
+    height: 40vh;
+    margin: 15px;
+    background-image: url("06.jpg");
+    background-size: cover;
+    border-radius: 40px;
+}
+.fotoKotle {
+    
+    height: 40vh;
+    margin: 15px;
+    background-image: url("DSC_0043.jpg");
+    background-size: cover;
+    border-radius: 40px;
+}
+
+
+
+
+
+.fotoFoto {
+    height: 60vh;
+    background-image: url("foto_palenica.jpg");
+    background-position: left 40% center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.kotolFoto {
+    height: 70vh;
+    background-image: url("kotol_orezany.jpg");
+    background-position: left 25% center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+/* Drop menu */
+.Drop {
+    background-color:#13292A ; 
+    /* #353643 */
+    
+}
+.linkDrop {
+    color: whitesmoke;
+}
+.GaleryBackground {
+    background-image: url("DSC_0001.JPG");
+    
+}
+/* Nadpis h1*/
+.h1_all {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+    font-weight: 560;
+    padding: 100px 0;
+    color: white; 
+}
+
+
+
+/* div okrasne  */
+.arrow {
+        width: 0; 
+        height: 0; 
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-top: 0px solid transparent;
+        border-bottom: 20px solid white;
+        position: relative;
+        left: 48%;
+       margin-left: -40px;
+}
+.arrowDark {
+    width: 0; 
+    height: 0; 
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 0px solid transparent;
+    border-bottom: 20px solid #13292A;
+    position: relative;
+    top: -55px;
+    left: 48%;
+   margin-left: -40px;
+}
+

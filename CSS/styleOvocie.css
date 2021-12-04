@@ -1,0 +1,40 @@
+  .textPrim {
+    font-family: 'FontAwesome';
+    font-size: 40;
+    color: #13292A;
+    
+  }
+
+.bodyDivOvocie {
+    background-color: #cccccc;
+    background-image: url('09.jpg');
+  background-position:  top 42% left 23%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.buttonStyle {
+  width: 100%;
+  padding: 10px;
+  background-color: inherit;
+  border: none;
+}
+
+.divImg {
+  padding: 0;
+}
+
+.pFirst {
+  padding: 10px;
+  border: 2px solid #13292A;
+  border-radius: 10px;
+ text-align: center;
+}
+.alerDiv {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #13292A;
+  color: white;
+  text-align: center;
+}

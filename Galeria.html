@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html  lang="sk" id="htm" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="CSS/style_boot.css">
+    <link rel="stylesheet" href="CSS/Galeria.css">
+    <link rel="stylesheet" href="CSSmodals/style1.css">
+    <title>Galeria</title>
+    <link  rel="icon" href="Pictures\Ikons\logo2.png">
+</head>
+<body id="bodko" onscroll="holdPosition()">
+  <div class="container-fluid mainDiv" >
+   <!-- Navigacia -->
+   <nav class="navbar navbar-expand-sm navbar-dark  nav_Gal"  id="up">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img style="max-width: 100px;" id="logo" src="logo.png" alt="Palenica_Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link"  href="index.html">Domov</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown">Rady pre vás</a>
+            <ul class="dropdown-menu Drop">
+              <li><a class="dropdown-item linkDrop" href="Ovocie.html">Ovocie</a></li>
+              <li><a class="dropdown-item linkDrop" href="MakeIt.html">Ako pripraviť kvas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Kontakt.html">Kontakt</a>
+          </li>  
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- bodyDiv h1_all -->
+   <div class="container-fluid bodyDiv ">
+     <div class="row">
+       <div class="col-md-4 col-lg-4 " name="space" ></div>
+       <div class="col-md-4 col-lg-4 text-center"  >
+        <h1 class="display-1 h1_all">Galéria</h1>
+        <div class="arrow"></div>
+       </div>
+       <div class="col-md-4 col-lg-4 " name="space" ></div>
+     </div>
+    
+   </div>
+    
+      <div class="container-fluid con_Gal"  >
+
+<!-- Zaciatok viditelneho kontainera -->
+<div class="container-fluid" style="padding: 0 0; background-color: white; width: 100%;height: 50px;" >
+</div>
+
+<!-- Butttons  , responsive img , buttons -->
+
+          <div class="container" >
+            <div class="row gal">
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri1()">
+                <button class="btn btn-secondary okrajeOut" type="button"  onclick="ukazHo()">
+                  <img class="img-fluid  " src="Pictures\Viber\16.jpg " alt="">    
+               </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri2()">
+                <button class="okrajeOut" onclick="ukazHo2()">
+                  <img class="img-fluid " src="Pictures\Viber\06.jpg" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri3()">
+                <button  class="okrajeOut" onclick="ukazHo3()">
+                <img class="img-fluid " src=" Pictures\Viber\12.jpg" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri4()">
+                <button  class="okrajeOut" onclick="ukazHo4()">
+                  <img class="img-fluid " src="Pictures\Viber\8.jpg" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri5()">
+                <button  class="okrajeOut" onclick="ukazHo5()">
+                  <img class="img-fluid " src="Pictures\Fotky_palenica\DSC_0037.JPG" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri6()">
+                <button  class="okrajeOut" onclick="ukazHo6()">
+                  <img class="img-fluid " src="Pictures\Fotky_palenica\DSC_0005.JPG" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal "  onclick="zavri7()">
+                <button  class="okrajeOut" onclick="ukazHo7()">
+                  <img class="img-fluid " src="Pictures\Fotky_palenica\DSC_0033.JPG" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal  " onclick="zavri8()">
+                <button  class="okrajeOut" onclick="ukazHo8()">
+                  <img class="img-fluid " src="Pictures\Fotky_palenica\DSC_0028.JPG" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri9()">
+                <button  class="okrajeOut" onclick="ukazHo9()">
+                  <img class="img-fluid " src="Pictures\Fotky_palenica\DSC_0026.JPG" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri10()">
+                <button  class="okrajeOut" onclick="ukazHo10()">
+                  <img class="img-fluid " src="Pictures\Fotky_palenica\DSC_0011.JPG" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri11()">
+                <button class="okrajeOut" onclick="ukazHo11()">
+                  <img class=" img-fluid " src="Pictures\Fotky_palenica\DSC_0041.JPG" alt="">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 gal " onclick="zavri12()">
+                <button  class="okrajeOut" onclick="ukazHo12()">
+                  <img class="img-fluid " src="Pictures\Fotky_palenica\DSC_0014.JPG" alt="">
+                </button>
+              </div>
+            </div>
+            
+          </div>
+
+           <!-- modals -->
+   <div id="modal1" class="modal" >
+    
+    <div class="modal-content inModal">
+      <span class="close" onclick="zavriHo()">&times;</span>
+      
+    </div>
+   
+ </div>
+ <div id="modal2"  class="modal" >
+  <div class="modal-content2 inModal">
+    <span class="close" onclick="zavriHo2()">&times;</span>
+    
+  </div>
+</div>
+<div id="modal3"  class="modal" >
+  <div class="modal-content3 inModal">
+    <span class="close" onclick="zavriHo3()">&times;</span>
+             
+  </div>
+</div>
+<div id="modal4" class="modal" >
+  <div class="modal-content4 inModal">
+    <span class="close" onclick="zavriHo4()">&times;</span>
+               
+  </div>
+</div>
+<div id="modal5" class="modal" >
+  <div class="modal-content5 inModal">
+    <span class="close" onclick="zavriHo5()">&times;</span>
+              
+  </div>
+</div>
+<div id="modal6" class="modal" >
+  <div class="modal-content6 inModal">
+    <span class="close" onclick="zavriHo6()">&times;</span>           
+  </div>
+</div>
+<div id="modal7" class="modal" >
+  <div class="modal-content7 inModal">
+    <span class="close" onclick="zavriHo7()">&times;</span>           
+  </div>
+</div>
+<div id="modal8" class="modal" >
+  <div class="modal-content8 inModal">
+    <span class="close" onclick="zavriHo8()">&times;</span>          
+  </div>
+</div>
+<div id="modal9" class="modal" >
+  <div class="modal-content9 inModal">
+    <span class="close"  onclick="zavriHo9()">&times;</span>           
+  </div>
+</div>
+<div id="modal10" class="modal" >
+  <div class="modal-content10 inModal">
+    <span class="close" onclick="zavriHo10()">&times;</span>          
+  </div>
+</div>
+<div id="modal11" class="modal" >
+  <div class="modal-content11 inModal">
+    <span class="close" onclick="zavriHo11()">&times;</span>           
+  </div>
+</div>
+<div id="modal12" class="modal" >
+  <div class="modal-content12 inModal">
+    <span class="close" onclick="zavriHo12()">&times;</span>           
+  </div>
+</div>
+            
+           
+          
+
+
+    <!-- Koniec -->
+    <div class="container-fluid" style="padding: 0 0; background-color: white; width: 100%;height: 100px;" >
+      
+    </div>
+    <footer class="row" >
+      
+      <div class="bg-dark col-sm-12 col-md-3 col-lg-3 text-white  foterko "  >
+         <p style="text-align: center;">
+          <a href="#up"><img style="max-width: 100px;" src="logo.png" alt="Palenica_Logo"></a>
+         </p>
+         
+       </div>
+      <div class="bg-dark col-sm-12 col-md-2 col-lg-2  text-white  foterko ">
+      <p style="margin:0;text-align: center;">  <br> <strong>Riaditelia výroby</strong> <br> Ing.Peter Krošlák <br> Miloslav Krošlák <br> </p>
+      </div>
+      <div class="bg-dark col-sm-12 col-md-2 col-lg-2  text-white  foterko ">
+        <div class="arrowDark"></div>
+         <p style="margin:0; text-align: center;">  <strong>Pestovateľská pálenica </strong> <br> tel: 0903404733 <br> kroslak.peter1@gmail.com  </p>
+      </div>
+      <div class="bg-dark col-sm-12 col-md-2 col-lg-2  text-white foterko ">
+          <p style="margin:0;text-align: center; "> <br> <strong>Pracovná doba:</strong> <br> pondelok-piatok <br> 8:00 - 19:00 </p>
+       </div>
+       <div class="bg-dark col-sm-12 col-md-3 col-lg-3 text-white  foterko ">
+  
+       </div>
+    </footer>
+  </div>
+</div>
+<script src="JS_Jquery/navBar.js"></script>
+<script src="JS_Jquery/jquery-3.6.0.js"></script>
+<script src="bootstrap/umd/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js" ></script>
+<script src="JS_Jquery/obrazky.js"></script>
+   
+</body>
+</html>

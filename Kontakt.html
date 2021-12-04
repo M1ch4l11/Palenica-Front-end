@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="CSS/style_boot.css">
+    <link rel="stylesheet" href="CSS/styleKontakt.css">
+    <title>Kontakt</title>
+    <link  rel="icon" href="Pictures\Ikons\logo2.png">
+</head>
+<body onscroll="holdPosition()" >
+  <div class="container-fluid mainDiv" >
+  <!-- Navigacia -->
+  <nav class="navbar navbar-expand-sm navbar-dark  nav_Gal"  id="up">
+   <div class="container">
+     <a class="navbar-brand" href="index.html"><img style="max-width: 100px;" id="logo" src="logo.png" alt="Palenica_Logo"></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse justify-content-md-center" id="collapsibleNavbar">
+       <ul class="navbar-nav">
+         <li class="nav-item">
+           <a class="nav-link"  href="index.html">Domov</a>
+         </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Rady pre vás</a>
+           <ul class="dropdown-menu Drop">
+             <li><a class="dropdown-item linkDrop" href="Ovocie.html">Ovocie</a></li>
+             <li><a class="dropdown-item linkDrop" href="MakeIt.html">Ako pripraviť kvas</a></li>
+           </ul>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="Galeria.html">Galeria</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="Kontakt.html">Kontakt</a>
+         </li>  
+         
+       </ul>
+     </div>
+   </div>
+ </nav>
+
+ <!-- bodyDiv h1_all -->
+  <div class="container-fluid bodyDivKontakt ">
+    <div class="row">
+      <div class="col-md-4 col-lg-4 " name="space" ></div>
+      <div class="col-md-4 col-lg-4 text-center"  >
+       <h1 class="display-1 h1_all">Kontakt</h1>
+       <div class="arrow"></div>
+      </div>
+      <div class="col-md-4 col-lg-4 " name="space" ></div>
+    </div>
+  </div>
+
+  <!-- Zaciatok contentu -->
+  <div class="container-fluid">
+    <div class="row " style="font-size: small;">
+      <div class="col-sm-12 col-md-2 col-lg-2"></div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h2 style="padding-top: 10vh;" class="text">Miroslav&nbsp;Krošlák&nbsp;-&nbsp;MIPEX</h2> <br>
+
+        <!-- Adresa -->
+
+        <address class="textInfo" style=" font-family:'FontAwesome';">
+          956&nbsp;16,Nitrianska&nbsp;Streda <br>
+          Čeľadince&nbsp;11 <br>
+          IČO:&nbsp;34&nbsp;761&nbsp;645 <br>
+          DIČ:&nbsp;2217654789 <br>
+          IČ&nbsp;DPH:&nbsp;SK1025788918 <br>
+        </address>
+        <h3 class="text">Riaditelia výroby</h3>
+        <p class="fontFam textInfo">    <br> Ing.Peter Krošlák <br> Miloslav Krošlák <br> </p>
+        <h4 class="text">Pestovateľská pálenica</h4>
+        <p  class="fontFam textInfo">  <br> tel: 0903404733 <br> kroslak.peter1@gmail.com  </p>
+        <h5 class="text">Pracovná doba</h5>
+        <p class="fontFam textInfo">  <br> pondelok-piatok <br> 8:00 - 19:00 </p> <br>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+
+        <!-- Formular -->
+
+       <form action="" method="post">
+         <div class="row formRow">
+          <h2 class="text " >Kontaktný formulár</h2>
+            <div class="col-sm-12 col-md-6 col-lg-6 formCont">
+              <!-- ID a class  -->
+              <input type="text" class="formText" id="Meno"  placeholder="Krstné meno">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 formCont">
+              <input type="text" class="formText" id="Priezvisko" placeholder="Priezvisko">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 formCont">
+              <input type="email"  class="formText" id="Email" placeholder="E-mail">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 formCont">
+              <input type="number" class="formText" min="10" } id="Tel" placeholder="Tel. kontakt">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 formMessage">
+             <textarea class="formText" id="Sprava" placeholder="Vaša správa"></textarea>
+            <div class="col-sm-12 col-md-12 col-lg-12 formCont ">
+            <input type="submit" onclick="ukazMuTo()" class="formSubmit" value="Poslať" >
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+     <div class="row" >
+       <div class="col-sm-12 col-md-2 col-lg-2 "></div>
+       <div class="col-sm-12 col-md-8 col-lg-8 ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.9473893608565!2d18.16719961584432!3d48.5085693332274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476b3592a8e3fad9%3A0x78f4acb9a67bea1e!2zxIxlxL5hZGluY2UgMTEsIDk1NiAxNiDEjGXEvmFkaW5jZQ!5e1!3m2!1ssk!2ssk!4v1637159754061!5m2!1ssk!2ssk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
+     <div class="col-sm-12 col-md-2 col-lg-2 "></div>
+     </div>
+   </div>
+
+   <!-- Koniec -->
+
+   <!-- Zmena farby elementu -->
+   <div class="container-fluid" style="padding: 0 0; background-color: white; width: 100%;height: 100px;" >
+   <footer class="row" >
+     <div class="bg-dark col-sm-12 col-md-3 col-lg-3 text-white  foterko "  >
+        <p style="text-align: center;">
+         <a href="#up"><img style="max-width: 100px;" src="logo.png" alt="Palenica_Logo"></a>
+        </p>
+        
+      </div>
+     <div class="bg-dark col-sm-12 col-md-2 col-lg-2  text-white  foterko ">
+     <p style="margin:0;text-align: center;">  <br> <strong>Riaditelia výroby</strong> <br> Ing.Peter Krošlák <br> Miloslav Krošlák <br> </p>
+     </div>
+     <div class="bg-dark col-sm-12 col-md-2 col-lg-2  text-white  foterko ">
+       <div class="arrowDark"></div>
+        <p style="margin:0; text-align: center;"> <strong>Pestovateľská pálenica </strong> <br> tel: 0903404733 <br> kroslak.peter1@gmail.com  </p>
+     </div>
+     <div class="bg-dark col-sm-12 col-md-2 col-lg-2  text-white foterko ">
+         <p style="margin:0;text-align: center; "> <br> <strong>Pracovná doba:</strong> <br> pondelok-piatok <br> 8:00 - 19:00 </p>
+      </div>
+      <div class="bg-dark col-sm-12 col-md-3 col-lg-3 text-white  foterko ">
+        
+      </div>
+   </footer>
+  </div>
+</div>
+   <script src="JS_Jquery/jquery-3.6.0.js"></script>
+   <script src="bootstrap/umd/popper.min.js"></script>
+   <script src="bootstrap/js/bootstrap.bundle.min.js" ></script>
+   <script src="JS_Jquery/navBar.js"></script>
+   <script src="JS_Jquery/Alert.js"></script>
+</body>
+</html>

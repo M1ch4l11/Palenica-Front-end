@@ -1,0 +1,78 @@
+/* pom */
+* { border: 1px solid black;}
+/* Navigacia */
+ul.Navigation {
+    list-style-type: none;
+    background-color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 4px 15px 20px 0px rgb(0,0,0,0.4);
+}
+li.LiNavigation {
+    
+    display: inline-block;
+    font-size: inherit;
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+a.LinksNavigation {
+    font-size: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+li.DropLi {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: inherit;
+    padding-bottom: inherit;
+   
+}
+#prvyLi {
+    margin-left: 60%;
+}
+a:hover {
+    color: red;
+}
+
+/* Drop down menu */
+
+div.Drop {
+    display: none;
+    padding: 10px 15px;
+    background-color: antiquewhite;
+    position:absolute;
+    box-shadow: 0px 15px 20px 0px rgb(0,0,0,0.4) ;
+}
+div.Drop a {
+   text-decoration: none;
+   text-align: left;
+}
+
+li.DropLi:hover .Drop {
+    display: block;
+}
+/* footer */
+.Footer {
+    position: relative;
+    background-color: violet;
+    height: 40px;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+/* containery */
+div.First {
+    background-image: url("about1.jpg");
+    background-color: #cccccc;
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+div.Second {
+    position: relative;
+}
