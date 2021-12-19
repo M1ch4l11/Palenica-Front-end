@@ -34,6 +34,8 @@
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   text-align: center;
+  padding: 35px;
+  
   
 }
 
@@ -43,18 +45,31 @@
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   text-align: left;
+  padding: 35px;
+  margin-top: 15px;
+ 
 }
 
-.fotoZ {
+/* .fotoZ {
   height: 60vh;
   border-radius: 10px;
   background-image: url("kvas-zle-zalozeny-ukazka.jpg");
   background-size: cover;
+} */
+
+.zarovnaj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .fotoZ2 {
   height: 60vh;
   border-radius: 10px;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 /*  tabulka zarovnanie */
